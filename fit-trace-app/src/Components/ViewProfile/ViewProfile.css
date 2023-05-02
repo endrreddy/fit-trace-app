@@ -1,0 +1,37 @@
+/* .card-container{
+    margin-left:15% ;
+    background-color: aliceblue;
+    margin-right: 35%;
+
+} */
+.card-profile{
+    
+    margin-left: 20px ;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 60px;
+    border: 1px,solid;
+    background-color: antiquewhite;
+    color: black;
+    align-content: center;
+}
+div .update-btn{margin-top: 25px;
+    margin-left: 46%;
+    align-content: center;
+}
+.profile{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10% ;
+    border: 1px,solid;
+    background-color: antiquewhite;
+    color: black;
+
+}
+thead{
+    background-color: burlywood;
+    
+}
+td{
+    text-align: right;
+}

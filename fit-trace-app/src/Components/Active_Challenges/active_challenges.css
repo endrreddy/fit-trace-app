@@ -1,0 +1,67 @@
+h3{
+    padding-top: 00px;
+}
+
+.falogohome {
+    position: fixed;
+    top: 78px;
+    right: 60px;
+    padding: 5px;
+    border-radius: 90%;
+    background-color: gray;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 30px); /* Set the width of each card */
+    margin: 10px; /* Add margin around each card */
+    margin-left: 17px;
+    padding: 20px; /* Add padding inside each card */
+    background-color: black; /* Set the background color of each card */
+    color: white;
+    border: .5px solid #ddd; /* Add border around each card */
+    box-sizing: border-box; /* Include border in card's width and height */
+  }
+  .img-container {
+    width: 5cm; /* Set the width of the container to 5cm */
+    height: 5cm; /* Set the height of the container to 5cm */
+    overflow: hidden; /* Hide any overflow from the container */
+  }
+  
+  .img-container img {
+    width: 100%; /* Set the width of the image to 100% of the container */
+    height: 100%; /* Set the height of the image to 100% of the container */
+    object-fit: cover; /* Scale the image to cover the container */
+  }
+  
+  .card button {
+    align-items: center;
+    margin-top: 10px; /* Add margin to the button inside the card */
+  }
+  
+  .btn-pink{
+    background-color: orchid;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+  }
+  .btn-pinkac{
+    background-color: orchid;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+  }
+  .btn-gray{
+    background-color:gray;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+  }
+  .btn-gray:hover{
+    background-color: gray;
+  }
